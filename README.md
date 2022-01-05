@@ -1,11 +1,11 @@
-# About AlmaLinux Build System
+# About the AlmaLinux Build System
 
 What is AlmaLinux Build System? AlmaLinux Build System is a project designed to automate processes of building distribution and packages, testing packages, signing packages, and releasing them to public repositories.
 The general purpose of the AlmaLinux Build System is to minimize manual work in order to reduce the amount of human-caused mistakes.
 We started to develop our product in 2012 for CloudLinux OS building and automatization. Specifically for AlmaLinux's other projects KernelCare and Imunify360 support, we launched the ability to build and test deb packages type.
 Besides being used for typical testing scenarios, AlmaLinux Build System is integrated with Jenkins for complicated scenarios. 
 
-# Why we did our own?
+# Why did we roll our own?
 
 The main reason is to help our quickly-growing team and new-coming employees to learn how to build and test rpm packages faster and easier. 
 As well, the support of deb packaged was required. So AlmaLinux needed an integrated pipeline for all the distribution maintenance processes: building, testing, signing and releasing packages. To manage all these phases together, not separately, successfully and effectively we created AlmaLinux Build System.
