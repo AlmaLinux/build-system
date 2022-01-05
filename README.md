@@ -7,7 +7,7 @@ Besides being used for typical testing scenarios, AlmaLinux Build System is inte
 
 # Why did we roll our own?
 
-The main reason is to help our quickly-growing team and new-coming employees to learn how to build and test rpm packages faster and easier. 
+The main reason is to help our quickly-growing community to learn how to build and test rpm packages faster and easier. 
 As well, the support of deb packaged was required. So AlmaLinux needed an integrated pipeline for all the distribution maintenance processes: building, testing, signing and releasing packages. To manage all these phases together, not separately, successfully and effectively we created AlmaLinux Build System.
 
 # Development 
