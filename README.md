@@ -25,6 +25,10 @@ AlmaLinux Build System supports different architectures such as x86_64, aarch64,
 Build system and test system are scalable. Also, their benefits are auto modification and debranding. 
 We support several types of packages (also for Ubuntu and Debian).
 
+# Documentation 
+
+More information and user guides can be found in the [Build System Wiki](https://github.com/AlmaLinux/build-system/wiki). 
+
 # Reporting issues and track the progress
 
 All issues should be reported to this project. A GitHub's [kanban board](https://github.com/orgs/AlmaLinux/projects/1) is used for the Build System project to track the progress.
