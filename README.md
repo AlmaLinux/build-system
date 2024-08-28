@@ -21,7 +21,6 @@ As well, the support of deb packaged was required. So AlmaLinux needed an integr
 * **Release System** sends a request and receives release tasks to upload signed packages to public repositories.
 * [**Git Server**](https://git.almalinux.org) sends updates via API to Master Service. It does it with the help of two services: [gitea-listener](https://github.com/AlmaLinux/gitea-listener) and git-cacher
 
-
 AlmaLinux Build System supports different architectures such as x86_64, aarch64, ppc64le and s390x. 
 Build system and test system are scalable. Also, their benefits are auto modification and debranding. 
 We support several types of packages (also for Ubuntu and Debian).
