@@ -19,11 +19,16 @@ As well, the support of deb packaged was required. So AlmaLinux needed an integr
 * [**Test System**](https://github.com/AlmaLinux/alts) sends a request and receives Test Tasks (builds) to test built packages from Artefact Storage. Test System test packages via Test Nodes (eg. Docker or OpenNebula with different architectures) and send test artifacts or test logs and reports back to Artifact Storage.
 * [**Sign Server**](https://github.com/AlmaLinux/albs-sign-node) sends a request and receives sign tasks to sign packages with our PGP key. It takes unsigned packages from Artifact Storage and puts them back signed.
 * **Release System** sends a request and receives release tasks to upload signed packages to public repositories.
-* [**Git Server**](git.almalinux.org) sends updates via API to Master Service. It does it with the help of two services: [gitea-listener](https://github.com/AlmaLinux/gitea-listener) and git-cacher
+* [**Git Server**](https://git.almalinux.org) sends updates via API to Master Service. It does it with the help of two services: [gitea-listener](https://github.com/AlmaLinux/gitea-listener) and git-cacher
 
-AlmaLinux Build System supports different architectures such as x86_64, aarch64 and ppc64le.
-Build system and test system are scalable. Also, their benefits are auto modification and debranding.
+
+AlmaLinux Build System supports different architectures such as x86_64, aarch64, ppc64le and s390x. 
+Build system and test system are scalable. Also, their benefits are auto modification and debranding. 
 We support several types of packages (also for Ubuntu and Debian).
+
+# Documentation 
+
+More information and user guides can be found in the [Build System Wiki](https://github.com/AlmaLinux/build-system/wiki). 
 
 # Reporting issues and track the progress
 
