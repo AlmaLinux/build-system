@@ -31,4 +31,4 @@ More information and user guides can be found in the [Build System Wiki](https:/
 
 # Reporting issues and track the progress
 
-All issues should be reported to this project. A GitHub's [kanban board](https://github.com/orgs/AlmaLinux/projects/1) is used for the Build System project to track the progress.
+All issues should be reported to this project. A GitHub's [kanban board](https://github.com/orgs/AlmaLinux/projects/2) is used for the Build System project to track the progress.
